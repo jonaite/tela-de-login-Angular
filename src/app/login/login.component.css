@@ -1,32 +1,91 @@
 
 
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100px;
+  float: right;
+  margin-right: 10px;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+.styled-button {
+  background-color: #960a0a;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 180px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  margin: 7px 2px;
+  cursor: pointer;
+  border-radius: 7px;
+}
 
 
 .body {
-  background: #D9D9D9;}
+  background: #ffffff;}
 .login-box {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 400px;
-  padding: 40px;
-  margin: 20px auto;
+  width: 540px;
+  padding: 55px;
   transform: translate(-50%, -55%);
   background: rgba(255, 255, 255, 0.9);
   box-sizing: border-box;
-  box-shadow: 0 15px 25px rgba(153, 0, 0, 0.6);
-  border-radius: 13px;
+  box-shadow: 0 20px 40px rgba(167, 0, 0, 0.6);
+  border-radius: 9px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
 }
 
-.login-box p:first-child {
-  margin: 0 0 30px;
-  padding: 0;
-  color: #a61414;
+.login-box p {
+  margin-bottom: 5px; /* valor desejado */
+}
+
+.login-box p:nth-of-type(1) {
+  margin: 0 0 5px;
+  padding: 12;
+  color: #791414;
   font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 36px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 24px;
+}
+.login-box p:nth-of-type(2) {
+
+  margin: 0 0 5px;
+  padding: 5;
+  color: #B11F26;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 24px;
+}
+
+.login-box p:nth-of-type(3) {
+  margin-top: 0.5em;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
 }
 
 .login-box .user-box {
@@ -80,7 +139,7 @@ line-height: 36px;
 }
 
 .login-box a:hover {
-  background: #D9D9D9;
+  background: #ffffff;
   color: #272727;
   border-radius: 10px;
 }
@@ -96,8 +155,7 @@ line-height: 36px;
 
 .login-box a.a2 {
 
-
-  font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
