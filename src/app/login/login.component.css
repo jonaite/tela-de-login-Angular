@@ -1,5 +1,4 @@
-
-
+/* logo da tela de login */
 .logo {
   display: flex;
   justify-content: center;
@@ -15,7 +14,7 @@
 }
 
 
-
+/*Botão de login*/
 .styled-button {
   background-color: #960a0a;
   border: none;
@@ -31,8 +30,11 @@
 }
 
 
+/*corpo ou funco do projeto*/
 .body {
   background: #ffffff;}
+
+/*Caixa de formulario*/
 .login-box {
   position: absolute;
   top: 50%;
@@ -42,13 +44,13 @@
   transform: translate(-50%, -55%);
   background: rgba(255, 255, 255, 0.9);
   box-sizing: border-box;
-  box-shadow: 0 20px 40px rgba(167, 0, 0, 0.6);
-  border-radius: 9px;
+  box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 20px;
+  line-height: 46px;
   text-align: center;
 }
 
@@ -56,10 +58,13 @@
   margin-bottom: 5px; /* valor desejado */
 }
 
+
+
+/*configurações dos nomes, titulos*/
 .login-box p:nth-of-type(1) {
   margin: 0 0 5px;
   padding: 12;
-  color: #791414;
+  color: #3f3030;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
@@ -94,7 +99,7 @@
 
 .login-box .user-box input {
   width: 100%;
-  padding: 10px 0;
+  padding: 19px 0;
   font-size: 16px;
   color: #000000;
   margin-bottom: 30px;
@@ -120,7 +125,7 @@
   top: -20px;
   left: 0;
   color: #000000;
-  font-size: 12px;
+  font-size: 18px;
 }
 
 .login-box form a {
@@ -169,3 +174,5 @@ line-height: 19px;
   color: #fc0000;
   border-radius: 5px;
 }
+
+
