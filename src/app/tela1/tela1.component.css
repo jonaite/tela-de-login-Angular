@@ -4,7 +4,7 @@ body {
   font-family: Arial, sans-serif;
 }
 #menu {
-  background-color: #333;
+  background-color: #121212;
   height: 100%;
   position: fixed;
   left: 0;
@@ -26,10 +26,10 @@ body {
   display: block;
   padding: 10px 20px;
   text-decoration: none;
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid #000000;
 }
 #menu li a:hover {
-  background-color: #444;
+  background-color: #000000;
 }
 #menu li:last-child a {
   border-bottom: none;
